@@ -7,12 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B6CBA97F2982A720002A0879 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B6CBA97E2982A720002A0879 /* main.c */; };
-		B6CBA9872982A746002A0879 /* pilha.c in Sources */ = {isa = PBXBuildFile; fileRef = B6CBA9862982A746002A0879 /* pilha.c */; };
+		B651EB1E29A2577A0014EEEB /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = B651EB1D29A2577A0014EEEB /* main.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		B6CBA9792982A720002A0879 /* CopyFiles */ = {
+		B651EB1829A2577A0014EEEB /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B6CBA97B2982A720002A0879 /* pilha-inverte-string - aula 232 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "pilha-inverte-string - aula 232"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6CBA97E2982A720002A0879 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
-		B6CBA9852982A746002A0879 /* pilha.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = pilha.h; sourceTree = "<group>"; };
-		B6CBA9862982A746002A0879 /* pilha.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = pilha.c; sourceTree = "<group>"; };
+		B651EB1A29A2577A0014EEEB /* tabela-hash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "tabela-hash"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B651EB1D29A2577A0014EEEB /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		B6CBA9782982A720002A0879 /* Frameworks */ = {
+		B651EB1729A2577A0014EEEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,67 +38,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B6CBA9722982A720002A0879 = {
+		B651EB1129A2577A0014EEEB = {
 			isa = PBXGroup;
 			children = (
-				B6CBA97D2982A720002A0879 /* pilha-inverte-string - aula 232 */,
-				B6CBA97C2982A720002A0879 /* Products */,
+				B651EB1C29A2577A0014EEEB /* tabela-hash */,
+				B651EB1B29A2577A0014EEEB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		B6CBA97C2982A720002A0879 /* Products */ = {
+		B651EB1B29A2577A0014EEEB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B6CBA97B2982A720002A0879 /* pilha-inverte-string - aula 232 */,
+				B651EB1A29A2577A0014EEEB /* tabela-hash */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B6CBA97D2982A720002A0879 /* pilha-inverte-string - aula 232 */ = {
+		B651EB1C29A2577A0014EEEB /* tabela-hash */ = {
 			isa = PBXGroup;
 			children = (
-				B6CBA9852982A746002A0879 /* pilha.h */,
-				B6CBA9862982A746002A0879 /* pilha.c */,
-				B6CBA97E2982A720002A0879 /* main.c */,
+				B651EB1D29A2577A0014EEEB /* main.c */,
 			);
-			path = "pilha-inverte-string - aula 232";
+			path = "tabela-hash";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B6CBA97A2982A720002A0879 /* pilha-inverte-string - aula 232 */ = {
+		B651EB1929A2577A0014EEEB /* tabela-hash */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B6CBA9822982A720002A0879 /* Build configuration list for PBXNativeTarget "pilha-inverte-string - aula 232" */;
+			buildConfigurationList = B651EB2129A2577A0014EEEB /* Build configuration list for PBXNativeTarget "tabela-hash" */;
 			buildPhases = (
-				B6CBA9772982A720002A0879 /* Sources */,
-				B6CBA9782982A720002A0879 /* Frameworks */,
-				B6CBA9792982A720002A0879 /* CopyFiles */,
+				B651EB1629A2577A0014EEEB /* Sources */,
+				B651EB1729A2577A0014EEEB /* Frameworks */,
+				B651EB1829A2577A0014EEEB /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "pilha-inverte-string - aula 232";
-			productName = "pilha-inverte-string - aula 232";
-			productReference = B6CBA97B2982A720002A0879 /* pilha-inverte-string - aula 232 */;
+			name = "tabela-hash";
+			productName = "tabela-hash";
+			productReference = B651EB1A29A2577A0014EEEB /* tabela-hash */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		B6CBA9732982A720002A0879 /* Project object */ = {
+		B651EB1229A2577A0014EEEB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
-					B6CBA97A2982A720002A0879 = {
+					B651EB1929A2577A0014EEEB = {
 						CreatedOnToolsVersion = 14.2;
 					};
 				};
 			};
-			buildConfigurationList = B6CBA9762982A720002A0879 /* Build configuration list for PBXProject "pilha-inverte-string - aula 232" */;
+			buildConfigurationList = B651EB1529A2577A0014EEEB /* Build configuration list for PBXProject "tabela-hash" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -109,30 +104,29 @@
 				en,
 				Base,
 			);
-			mainGroup = B6CBA9722982A720002A0879;
-			productRefGroup = B6CBA97C2982A720002A0879 /* Products */;
+			mainGroup = B651EB1129A2577A0014EEEB;
+			productRefGroup = B651EB1B29A2577A0014EEEB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B6CBA97A2982A720002A0879 /* pilha-inverte-string - aula 232 */,
+				B651EB1929A2577A0014EEEB /* tabela-hash */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		B6CBA9772982A720002A0879 /* Sources */ = {
+		B651EB1629A2577A0014EEEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6CBA9872982A746002A0879 /* pilha.c in Sources */,
-				B6CBA97F2982A720002A0879 /* main.c in Sources */,
+				B651EB1E29A2577A0014EEEB /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		B6CBA9802982A720002A0879 /* Debug */ = {
+		B651EB1F29A2577A0014EEEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -190,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		B6CBA9812982A720002A0879 /* Release */ = {
+		B651EB2029A2577A0014EEEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -241,7 +235,7 @@
 			};
 			name = Release;
 		};
-		B6CBA9832982A720002A0879 /* Debug */ = {
+		B651EB2229A2577A0014EEEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -249,7 +243,7 @@
 			};
 			name = Debug;
 		};
-		B6CBA9842982A720002A0879 /* Release */ = {
+		B651EB2329A2577A0014EEEB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -260,25 +254,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B6CBA9762982A720002A0879 /* Build configuration list for PBXProject "pilha-inverte-string - aula 232" */ = {
+		B651EB1529A2577A0014EEEB /* Build configuration list for PBXProject "tabela-hash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6CBA9802982A720002A0879 /* Debug */,
-				B6CBA9812982A720002A0879 /* Release */,
+				B651EB1F29A2577A0014EEEB /* Debug */,
+				B651EB2029A2577A0014EEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B6CBA9822982A720002A0879 /* Build configuration list for PBXNativeTarget "pilha-inverte-string - aula 232" */ = {
+		B651EB2129A2577A0014EEEB /* Build configuration list for PBXNativeTarget "tabela-hash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B6CBA9832982A720002A0879 /* Debug */,
-				B6CBA9842982A720002A0879 /* Release */,
+				B651EB2229A2577A0014EEEB /* Debug */,
+				B651EB2329A2577A0014EEEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = B6CBA9732982A720002A0879 /* Project object */;
+	rootObject = B651EB1229A2577A0014EEEB /* Project object */;
 }
